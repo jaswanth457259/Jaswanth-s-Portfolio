@@ -26,6 +26,22 @@
         }
         main {
             margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            text-align: left;
+        }
+        img.profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgb(144, 57, 224);
+            box-shadow: 0 0 15px rgba(144, 57, 224, 0.7);
+            flex-shrink: 0;
+        }
+        .info {
+            max-width: 600px;
         }
         h2 {
             font-size: 2rem;
@@ -58,30 +74,30 @@
     </style>
 </head>
 <body>
-    <header>About Jaswanth</header>
+    <header>About Shamili</header>
     <main>
-        <h2>Education:</h2>
-        <p>Bachelor of Technology in Artificial Intelligence and Machine Learning</p>
-        <p>from VR Siddhartha Engineering College,Vijayawada,A.P</p>
-        <p>(currently pursuing)</p>
+        <img src="image.jpg" alt="Jaswanth's Profile Picture" class="profile-pic">
+        <div class="info">
+            <h2>Education:</h2>
+            <p>Bachelor of Technology in Artificial Intelligence and Machine Learning</p>
+            <p>from VR Siddhartha Engineering College, Vijayawada, A.P</p>
+            <p>(currently pursuing)</p>
+            <p>CGPA:8.51</p>
 
-        
-        <h2>Internships</h2>
-        <p>Completed: Google Android Developer Virtual Internship</p>
-        <p>Completed:Google AIML Virtual Internship</p>
-        <p>Completed:AWS Cloud Virtual Internship</p>
+            <h2>Internships</h2>
+            <p>Completed: Google Android Developer Virtual Internship</p>
+            <p>Completed: AWS Cloud Virtual Internship</p>
+            <p>Completed: Google AIML Virtual Internship</p>
 
-        
-        
-        
-        <h2>Skills</h2>
-        <p>Java, JavaScript, HTML, CSS, Python,SQL,</p>
-        <p>Data Structures and Algorithms</p>
-        
-        <h2>Interests</h2>
-        <p>Web Development, Software Engineering, Machine Learning</p>
-        
-        <a href="index.html" class="btn-back">Back to Home</a>
+            <h2>Skills</h2>
+            <p>Java,Python,SQL,JavaScript, HTML, CSS</p>
+            <p>Data Structures and Algorithms,Computer Networks,Operating Systems</p>
+
+            <h2>Interests</h2>
+            <p>Web Development, Software Engineering, Machine Learning</p>
+
+            <a href="index.html" class="btn-back">Back to Home</a>
+        </div>
     </main>
 </body>
 </html>
